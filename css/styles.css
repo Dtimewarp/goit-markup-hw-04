@@ -525,6 +525,10 @@ body {
   fill: currentColor;
 }
 
+.customer-icon:hover,
+.customer-icon:focus {
+  color: var(--ocean, #404bbf);
+}
 /**
   |============================
   | Portfolio.html
