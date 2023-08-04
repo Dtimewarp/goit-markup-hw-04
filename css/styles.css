@@ -655,6 +655,10 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.app-link:hover p {
+  transform: translateY(0%);
+}
+
 .filter-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -695,7 +699,7 @@ body {
   margin-bottom: 8px;
 }
 
-.image-container {
+.overlay-container {
   position: relative;
   overflow: hidden;
 }
