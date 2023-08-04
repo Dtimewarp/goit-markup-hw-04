@@ -68,12 +68,16 @@
           <button class="order-service-btn" type="button" data-modal-open>
             Order Service
           </button>
+
+          <!-- Modal window -->
           <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <!-- ! тут розмітка модального вікна -->
-              <!-- //<p>Lorem ipsum dolor sit amet.</p> -->
+            <div class="modal-window">
+              <button class="button-close" type="button" data-modal-close>
+                <svg class="close-icon" width="8" height="8">
+                  <use href="./images/icons.svg#closeicon"></use>
+                </svg>
+              </button>
             </div>
-            <!-- ! поки не треба відображати<button data-modal-close> Close</button> -->
           </div>
         </div>
       </section>
@@ -522,6 +526,7 @@
         </div>
       </div>
     </footer>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
