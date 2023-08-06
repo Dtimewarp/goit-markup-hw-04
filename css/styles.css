@@ -180,17 +180,11 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .studio-color {
   color: var(--navyblue, #2e2f42);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .current {
@@ -205,13 +199,11 @@ body {
 */
 
 .footer-container {
-  display: flex;
   color: var(--cloud, #f4f4fd);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
   letter-spacing: 0.32px;
   background-color: var(--navyblue, #2e2f42);
   padding: 100px 0;
